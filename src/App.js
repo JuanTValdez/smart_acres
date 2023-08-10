@@ -8,14 +8,29 @@ function App() {
       <div className="section">
         <nav> 
           <div className="logo">
-
+            Logo
           </div>
           <div className="navLinks">
+              <span>
+                Green Team
+              </span>
+        
+              <span>
+                Start Smart
+              </span>
 
+              <span>
+
+                Community
+              </span>
             <div className="contact_us">
+              <p>
+                
+                Contact Us
 
+              </p>
             </div>
-            
+
           </div>
 
         </nav>
