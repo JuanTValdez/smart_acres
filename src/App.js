@@ -6,7 +6,19 @@ function App() {
     <div className="App">
       
       <div className="section">
-        
+        <nav> 
+          <div className="logo">
+
+          </div>
+          <div className="navLinks">
+
+            <div className="contact_us">
+
+            </div>
+            
+          </div>
+
+        </nav>
       </div>
 
 
@@ -57,7 +69,7 @@ function App() {
       <div className="section">
         
       </div>
-      
+
     </div>
 
       
