@@ -37,6 +37,17 @@
   }
 }
 
-.Candle{
+nav{
+
+  display:flex;
+  justify-content: space-between;
+  padding: 1% 5% 0 5%;
+}
+
+.nav_links{
   
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  gap: 20px;
 }

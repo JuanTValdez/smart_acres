@@ -6,11 +6,11 @@ function App() {
     <div className="App">
       
       <div className="section">
-        <nav> 
+        <nav > 
           <div className="logo">
             Logo
           </div>
-          <div className="navLinks">
+          <div className="nav_links">
               <span>
                 Green Team
               </span>
@@ -35,6 +35,25 @@ function App() {
 
         </nav>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       <div className="section">
