@@ -6,11 +6,15 @@ function App() {
     <div className="App">
       
       <div className="section">
-        <nav > 
+       
+        <nav className="nav_bar"> 
           <div className="logo">
+
             Logo
+
           </div>
           <div className="nav_links">
+
               <span>
                 Green Team
               </span>
@@ -23,18 +27,33 @@ function App() {
 
                 Community
               </span>
-            <div className="contact_us">
-              <p>
+          
+              <span>
                 
                 Contact Us
 
-              </p>
-            </div>
+              </span>
+            
 
           </div>
 
         </nav>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
