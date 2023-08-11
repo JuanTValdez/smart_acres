@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       
-      <div className="section">
+      {/* <div className="section"> */}
        
         <nav className="nav_bar"> 
           <div className="logo">
@@ -13,22 +13,22 @@ function App() {
             Logo
 
           </div>
-          <div className="nav_links">
+          <div className="nav_links ultra">
 
-              <span>
+              <span className="nav_links ultra" >
                 Green Team
               </span>
         
-              <span>
+              <span className="nav_links ultra">
                 Start Smart
               </span>
 
-              <span>
+              <span className="nav_links ultra">
 
                 Community
               </span>
           
-              <span>
+              <span className="nav_links ultra">
                 
                 Contact Us
 
@@ -38,7 +38,7 @@ function App() {
           </div>
 
         </nav>
-      </div>
+      {/* </div> */}
 
 
 
