@@ -2,9 +2,27 @@
   text-align: center;
 } */
 
+root {
+  --fern-green: #38864c;
+  --dark-pastel-green: #57b35e;
+  --beige: #f7ede4;
+  --beige: #eddcbd;
+  --blue-green: #008080;
+  --windows-blue: #3c6ec3;
+  --gunmetal: #4d6052;
+  --light-moss-green: #93ce66;
+  --charcoal: #242924;
+  --coral: #fe4e48;
+  --off-white: #fcfff5;
+  --amethyst: #96c;
+}
+
+
 *{
 
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 nav{
@@ -20,10 +38,12 @@ nav{
   width: 100vw;  
   position: relative;
   background-color: #fcfff5;
-  border: 2px solid green;
+  outline: 2px solid green;
   
 
 }
+
+
 
 .nav_links{
   
@@ -32,13 +52,29 @@ nav{
   justify-content: space-between; 
   gap: 20px;
   
-  /* height: 10%; */
-  
-  font-size: 1em;
+  font-size: 1.125em;
   font-weight: 500;
+  font-family: WorkSans; 
   line-height: 1.17;
+  letter-spacing: -0.45px;
+  color: var(--charcoal);
+  outline: 2px solid red;
+}
 
-  border: 2px solid red;
+.nav_links span{
+  width: 106px;
+  height: 23px;
+  margin: 0 0 2.5px;
+  font-family: WorkSans;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -0.45px;
+  text-align: center;
+  color: var(--charcoal);
+  outline: 2px solid purple;
 }
 
 .logo{
