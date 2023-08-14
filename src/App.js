@@ -50,7 +50,7 @@ function App() {
           We're growing the UAE's food system and the way you eat.
 
           </span>
-          <span>
+          <span className="food_system">
             Our food system is in dire need of help and now's our chance to fix it.
           </span>
 
@@ -63,7 +63,7 @@ function App() {
           </div>   
         
         
-        <img src={Lettuceplate} alt="" />
+        <img className="img_lettuce_plate" src={Lettuceplate} alt="" />
       
       </div> 
 

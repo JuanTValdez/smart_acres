@@ -116,13 +116,30 @@ nav{
   width: 927px;
   height: 317px;
   margin: 331px 152px 805px 166px;
-  font-family: ClarendonURW-Lig;
+  font-family: 'ClarendonURW-Lig';
   font-size: 74px;
   
   line-height: 1.15;
   letter-spacing: -1.85px;
   text-align: left;
   color: var(--fern-green);
+}
+
+.food_system{
+  width: 775px;
+  height: 83px;
+  margin: 559px 0 36.5px 128.9px;
+  font-family: 'WorkSans-Roman';
+  font-size: 32px;
+  
+  line-height: 1.31;
+  letter-spacing: -0.96px;
+  text-align: left;
+  color: var(--gunmetal);
+}
+
+.img_lettuce_plate{
+  
 }
 
 
