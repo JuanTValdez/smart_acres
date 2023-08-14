@@ -3,7 +3,7 @@
 } */
 
 
-root {
+:root {
  
   /* Colors */
 
@@ -77,7 +77,87 @@ nav{
 
 .logo{
   border: 2px solid pink;
+
 }
+ 
+
+/* NEXT SECTION */
+
+
+.flex_row{
+  display: flex;
+}
+
+.tell_more_btn{
+
+  min-width: 260px;
+  min-height: 65px;
+  margin: 36.5px 515.5px 0 128.4px;
+  padding: 13px 52px 19px;
+  border: solid 3px var(--coral);
+  background-color: var(--coral);
+ 
+}
+
+.tell_me_more{
+  width: 156px;
+  height: 33px;
+  font-family: 'ClarendonURW-Reg';
+  font-size: 24px;
+  line-height: 2.79;
+  letter-spacing: -0.48px;
+  /* text-align: center; */
+  /* padding: auto auto; */
+  color: var(--off-white);
+
+}
+
+.growing_uae{
+  width: 927px;
+  height: 317px;
+  margin: 331px 152px 805px 166px;
+  font-family: ClarendonURW-Lig;
+  font-size: 74px;
+  
+  line-height: 1.15;
+  letter-spacing: -1.85px;
+  text-align: left;
+  color: var(--fern-green);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

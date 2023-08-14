@@ -1,5 +1,6 @@
 
 import './App.css';
+import Lettuceplate from "./images/lettuceplate_sml.png";
 
 function App() {
   return (
@@ -41,85 +42,107 @@ function App() {
       {/* </div> */}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <div className="section">
+       <div className="container flex_row ">
         
-      </div>
+         <div className="container_text ">
+          
+          <span className="growing_uae">
+          We're growing the UAE's food system and the way you eat.
+
+          </span>
+          <span>
+            Our food system is in dire need of help and now's our chance to fix it.
+          </span>
+
+            <div className="tell_more_btn">
+
+            <span className="tell_me_more">
+              Tell me more!
+            </span>
+            </div>
+          </div>   
+        
+        
+        <img src={Lettuceplate} alt="" />
       
-      <div className="section">
+      </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+      <div className="container">
         
       </div>
 
-      <div className="section">
+      <div className="container">
         
       </div>
 
-      <div className="section">
+      <div className="container">
         
       </div>
 
-      <div className="section">
+      <div className="container">
         
       </div>
 
-      <div className="section">
+      <div className="container">
         
       </div>
 
-      <div className="section">
+      <div className="container">
         
       </div>
 
-      <div className="section">
+      <div className="container">
         
       </div>
 
-      <div className="section">
+      <div className="container">
         
       </div>
 
-      <div className="section">
+      <div className="container">
         
       </div>
 
-      <div className="section">
+      <div className="container">
         
       </div>
 
-      <div className="section">
+      <div className="container">
         
       </div>
 
