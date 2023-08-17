@@ -1,6 +1,6 @@
-/* .App {
-  text-align: center;
-} */
+.App {
+	width: 100%;
+}
 
 :root {
 	/* Colors */
@@ -25,6 +25,12 @@
 	padding: 0;
 }
 
+body {
+	width: 100%;
+	margin-left: 8%;
+	background-color: #eddcbd;
+}
+
 .ol_red {
 	outline: 4px solid red;
 	background-color: grey;
@@ -32,6 +38,7 @@
 
 .ol_blue {
 	outline: 4px solid blue;
+	background-color: #57b35e;
 }
 
 .ol_green {
@@ -103,18 +110,31 @@ nav {
 
 /* NEXT SECTION */
 
-img {
-	object-fit: contain;
-}
-.image_1 {
-	position: absolute;
-	right: 0%;
-	/* height: 54vh; */
-	/* min-width: 64vw; */
+.flex_r_wrap {
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.left_1 {
-	height: 54vh;
-	width: 46vw;
-	opacity: 50%;
+.container_main {
+	position: relative;
+}
+
+.container_1 {
+	position: absolute;
+	right: 0%;
+
+	height: 96vh;
+	width: 64vw;
+	/* width: 64%; */
+}
+
+.container_1 img {
+	width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+
+.container_2 {
+	height: 1275px;
+	max-width: 54%;
 }

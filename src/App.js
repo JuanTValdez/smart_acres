@@ -4,53 +4,31 @@ import Lettuceplate from './images/lettuceplate_sml.png';
 function App() {
 	return (
 		<div className='App'>
-			{/* <div className="section">
-       
-      <nav className="nav_bar"> 
-          <div className="logo">
+			{/* <nav className='nav_bar'>
+				<div className='logo'>Logo</div>
+				<div className='nav_links ultra'>
+					<span className='nav_links ultra'>Green Team</span>
 
-            Logo
+					<span className='nav_links ultra'>Start Smart</span>
 
-          </div>
-          <div className="nav_links ultra">
+					<span className='nav_links ultra'>Community</span>
 
-              <span className="nav_links ultra" >
-                Green Team
-              </span>
-        
-              <span className="nav_links ultra">
-                Start Smart
-              </span>
+					<span className='nav_links ultra'>Contact Us</span>
+				</div>
+			</nav> */}
 
-              <span className="nav_links ultra">
-
-                Community
-              </span>
-          
-              <span className="nav_links ultra">
-                
-                Contact Us
-
-              </span>
-            
-
-          </div>
-
-      </nav> 
-      
-    </div>  */}
-
-			<div className='container_flex_rw'>
-				<div className='image_1 ol_purple'>
+			<div className='container_main  flex_r-wrp ol_yellow'>
+				<div className='container_1 ol_green'>
 					<img src={Lettuceplate} alt='' />
 				</div>
 
-				<div className='container_flex_col left_1 ol_green'>
-					<span className='example_font'>Example Font 1</span>
-
-					<span className='example_font'>Example Font 2</span>
-
-					<span className='example_font'>Example Font 3</span>
+				<div className='container_2 ol_blue'>
+					<span>We're growing the UAE's food system and the way you eat.</span>
+					<span>
+						Our food system is in dire need of help and now’s our chance to fix
+						it.
+					</span>
+					<span>Tell Me More!</span>
 				</div>
 			</div>
 		</div>
