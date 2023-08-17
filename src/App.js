@@ -22,13 +22,15 @@ function App() {
 					<img src={Lettuceplate} alt='' />
 				</div>
 
-				<div className='container_2 ol_blue'>
-					<span>We're growing the UAE's food system and the way you eat.</span>
-					<span>
+				<div className='container_2 contain_flex_col '>
+					<div className='txt_1'>
+						We're growing the UAE's food system and the way you eat.
+					</div>
+					<div className='txt_2'>
 						Our food system is in dire need of help and now’s our chance to fix
 						it.
-					</span>
-					<span>Tell Me More!</span>
+					</div>
+					<div className='btn_1'>Tell Me More!</div>
 				</div>
 			</div>
 		</div>

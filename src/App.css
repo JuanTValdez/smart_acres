@@ -1,6 +1,6 @@
-.App {
+/* .App {
 	width: 100%;
-}
+} */
 
 :root {
 	/* Colors */
@@ -135,6 +135,18 @@ nav {
 }
 
 .container_2 {
+	position: absolute;
+	padding-top: 1%;
 	height: 1275px;
 	max-width: 54%;
+}
+.txt_1 {
+	font-family: 'Worksans';
+	font-size: 4em;
+	font-size: 64px;
+	line-height: 1.15;
+	letter-spacing: -1.85px;
+	/* margin-top: 1%; */
+	width: 927px;
+	/* height: 317px; */
 }
