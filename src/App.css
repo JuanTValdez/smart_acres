@@ -27,8 +27,8 @@
 
 body {
 	width: 100%;
-	margin-left: 8%;
-	background-color: #eddcbd;
+
+	background-color: var(--off-white);
 }
 
 .ol_red {
@@ -58,6 +58,10 @@ body {
 
 .example_font {
 	font-size: 24px;
+}
+
+.container {
+	position: relative;
 }
 
 .container_flex_rw {
@@ -115,38 +119,34 @@ nav {
 	flex-wrap: wrap;
 }
 
-.container_main {
-	position: relative;
-}
-
 .container_1 {
 	position: absolute;
 	right: 0%;
 
 	height: 96vh;
 	width: 64vw;
-	/* width: 64%; */
 }
 
 .container_1 img {
 	width: 100%;
 	max-height: 100%;
+
 	object-fit: cover;
 }
 
 .container_2 {
 	position: absolute;
-	padding-top: 1%;
-	height: 1275px;
+	height: 96vh;
 	max-width: 54%;
+	padding: 10% 0px 0px 8%;
 }
 .txt_1 {
-	font-family: 'Worksans';
+	font-family: 'Work Sans';
+
 	font-size: 4em;
-	font-size: 64px;
 	line-height: 1.15;
 	letter-spacing: -1.85px;
-	/* margin-top: 1%; */
-	width: 927px;
-	/* height: 317px; */
+
+	/* width: 48vw; */
+	/* min-height: 10vh; */
 }

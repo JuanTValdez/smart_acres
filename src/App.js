@@ -17,7 +17,7 @@ function App() {
 				</div>
 			</nav> */}
 
-			<div className='container_main  flex_r-wrp ol_yellow'>
+			<div className='container  ol_yellow'>
 				<div className='container_1 ol_green'>
 					<img src={Lettuceplate} alt='' />
 				</div>
