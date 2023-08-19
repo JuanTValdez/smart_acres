@@ -17,7 +17,7 @@ function App() {
 				</div>
 			</nav> */}
 
-			<div className='container  ol_yellow'>
+			{/* <div className='container  ol_yellow'>
 				<div className='container_1 ol_green'>
 					<img src={Lettuceplate} alt='' />
 				</div>
@@ -31,6 +31,24 @@ function App() {
 						it.
 					</div>
 					<div className='btn_1'>Tell Me More!</div>
+				</div>
+			</div> */}
+
+			<div className='intro-grid ol_green'>
+				<div className='intro-image ol_orange'>
+					<img src={Lettuceplate} alt='' />
+				</div>
+
+				<div className='intro-content ol_orange ol_cyan'>
+					<p className='intro-text'>
+						We're growing the UAE's food system and the way you eat.We're
+						growing the UAE's food system and the way you eat.
+					</p>
+					<p className='intro-text'>
+						Our food system is in dire need of help and now's our chance to fix
+						it.
+					</p>
+					<p className='intro-btn'>Tell me more!</p>
 				</div>
 			</div>
 		</div>

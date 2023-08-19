@@ -1,6 +1,5 @@
-/* .App {
-	width: 100%;
-} */
+.App {
+}
 
 :root {
 	/* Colors */
@@ -26,7 +25,7 @@
 }
 
 body {
-	width: 100%;
+	/* width: 100%; */
 
 	background-color: var(--off-white);
 }
@@ -36,12 +35,12 @@ body {
 	background-color: grey;
 }
 
-.ol_blue {
+.ol_green {
 	outline: 4px solid blue;
 	background-color: #57b35e;
 }
 
-.ol_green {
+.ol_orange {
 	outline: 4px solid green;
 	background-color: darkorange;
 }
@@ -51,12 +50,12 @@ body {
 	background-color: darkgray;
 }
 
-.ol_purple {
+.ol_cyan {
 	outline: 4px solid purple;
 	background-color: cyan;
 }
 
-.example_font {
+/* .example_font {
 	font-size: 24px;
 }
 
@@ -70,7 +69,7 @@ body {
 .container_flex_col {
 	display: flex;
 	flex-direction: column;
-}
+} */
 
 /* .ultra{
   font-family: 'Ultra';
@@ -114,7 +113,36 @@ nav {
 
 /* NEXT SECTION */
 
-.flex_r_wrap {
+.intro-grid {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	margin: 0 auto;
+	/* max-height: 96vh; */
+	max-width: 100%;
+}
+
+.intro-image {
+	grid-column: 3 / -1;
+	max-height: 96vh;
+	/* object-fit: cover; */
+}
+
+.intro-content {
+	grid-column: 1 / 4;
+	align-self: center;
+}
+
+.intro-image,
+.intro-content {
+	grid-row: 1 / 2;
+}
+
+.intro-image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+/* .flex_r_wrap {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -147,6 +175,5 @@ nav {
 	line-height: 1.15;
 	letter-spacing: -1.85px;
 
-	/* width: 48vw; */
-	/* min-height: 10vh; */
-}
+
+} */
