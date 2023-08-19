@@ -130,6 +130,7 @@ nav {
 .intro-content {
 	grid-column: 1 / 4;
 	align-self: center;
+	margin: auto auto;
 }
 
 .intro-image,
