@@ -47,7 +47,9 @@ function App() {
 						Our food system is in dire need of help and now's our chance to fix
 						it.
 					</p>
-					<p className='intro-btn'>Tell me more!</p>
+					<div className='intro-btn'>
+						<p>Tell me more!</p>
+					</div>
 				</div>
 			</div>
 		</div>
