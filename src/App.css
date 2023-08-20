@@ -1,6 +1,8 @@
 .App {
 }
 
+/* @import './fonts/Clarendon-Light-DTC.ttf'; */
+
 :root {
 	/* Colors */
 
@@ -130,12 +132,12 @@ nav {
 .intro-content {
 	grid-column: 1 / 4;
 	align-self: center;
-	margin: auto auto;
 }
 
 .intro-image,
 .intro-content {
 	grid-row: 1 / 2;
+	padding: 0 0 0 8%;
 }
 
 .intro-image img {
@@ -143,6 +145,20 @@ nav {
 	width: 100%;
 	object-fit: cover;
 }
+
+.intro-text-1 {
+	/* width: 48vw; */
+	font-family: 'Clarendon-Lig';
+	font-size: 4.6em;
+	line-height: 1.15;
+	letter-spacing: -1.85px;
+	text-align: left;
+	color: var(--fern-green);
+}
+
+.intro-text-2 {
+}
+
 /* .flex_r_wrap {
 	display: flex;
 	flex-wrap: wrap;

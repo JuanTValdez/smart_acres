@@ -1,6 +1,13 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Ultra&family=Work+Sans:wght@500&display=swap'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+/* @import url('./fonts/Clarendon-Light-DTC.ttf'); */
+
+@font-face {
+	font-family: 'Clarendon-Lig';
+	src: local('Clarendon-light-DTC'),
+		url('./fonts/Clarendon-Light-DTC.ttf') format('truetype');
+}
 
 body {
 	margin: 0;
