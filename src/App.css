@@ -130,12 +130,14 @@ nav {
 .intro-content {
 	grid-column: 1 / 4;
 	align-self: center;
+	text-align: left;
+	margin: 0 0 0 8.9%;
 }
 
 .intro-image,
 .intro-content {
 	grid-row: 1 / 2;
-	padding: 0 0 0 8%;
+	/* padding: 0 0 0 8%; */
 }
 
 .intro-image img {
@@ -144,31 +146,33 @@ nav {
 	object-fit: cover;
 }
 
+/* TRY ADDING MARGINS TO TEXT */
 .intro-text-1 {
 	font-family: 'Clarendon-Lig';
 	font-size: 4.6em;
 	line-height: 1.15;
 	letter-spacing: -1.85px;
-	text-align: left;
 	color: var(--fern-green);
 }
-
+/* TRY ADDING MARGINS TO TEXT */
 .intro-text-2 {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 2em;
 	line-height: 1.31;
 	letter-spacing: -0.96px;
-	text-align: left;
 	color: var(--gunmetal);
 }
 
 .intro-btn {
-	/* max-width: 11%; */
+	max-width: 13vw;
 	border: solid 3px var(--coral);
 	background-color: var(--coral);
 	color: var(--off-white);
 
 	& p {
 		font-size: 1.5em;
+		line-height: 2.79;
+		letter-spacing: -0.48px;
+		text-align: center;
 	}
 }
