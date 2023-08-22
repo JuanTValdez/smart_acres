@@ -34,12 +34,12 @@ function App() {
 				</div>
 			</div> */}
 
-			<div className='intro-grid ol_green'>
-				<div className='intro-image ol_orange'>
+			<div className='intro-grid'>
+				<div className='intro-image'>
 					<img src={Lettuceplate} alt='' />
 				</div>
 
-				<div className='intro-content ol_orange ol_cyan'>
+				<div className='intro-content'>
 					<p className='intro-text-1'>
 						We're growing the UAE's food system and the way you eat.
 					</p>
