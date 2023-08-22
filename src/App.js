@@ -1,9 +1,12 @@
 import './App.css';
-import Intro from './components/IntroSection.js';
+import NavBar from './components/Navbar.js';
+// import Intro from './components/IntroSection.js';
 
 function App() {
 	return (
 		<div className='App'>
+			<NavBar />
+
 			{/* <Intro /> */}
 
 			{/* <nav className='nav_bar'>
