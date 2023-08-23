@@ -7,4 +7,16 @@
 	/* max-width: 40%; */
 	display: flex;
 	justify-content: space-between;
+	gap: 1.5em;
+
+	& p {
+		/* font-size: 18px; */
+		font-size: 1.15em;
+		font-family: 'Work Sans', sans-serif;
+		font-weight: 500;
+		line-height: 1.17;
+		letter-spacing: -0.45px;
+		margin: 25px 0;
+		color: var(--gunmetal);
+	}
 }
