@@ -1,5 +1,5 @@
-.App {
-}
+/* .App {
+} */
 
 /* @import './fonts/Clarendon-Light-DTC.ttf'; */
 
@@ -42,19 +42,14 @@ body {
 	background-color: #57b35e;
 }
 
+.ol_blue {
+	outline: 4px solid yellow;
+	background-color: blue;
+}
+
 .ol_orange {
 	outline: 4px solid green;
 	background-color: darkorange;
-}
-
-.ol_yellow {
-	outline: 4px solid yellow;
-	background-color: darkgray;
-}
-
-.ol_cyan {
-	outline: 4px solid purple;
-	background-color: cyan;
 }
 
 /* .example_font {
