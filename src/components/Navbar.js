@@ -2,10 +2,10 @@ import React from 'react';
 import '../styles/NavBar.css';
 export default function NavBar() {
 	return (
-		<nav className='nav-container ol_orange'>
-			<div className='logo ol_blue'></div>
+		<nav className='nav-container'>
+			<div className='logo'></div>
 
-			<div className='links ol_green'>
+			<div className='links'>
 				<p>Green Team</p>
 				<p>Start Smart</p>
 				<p>Community</p>
