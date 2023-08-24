@@ -4,18 +4,33 @@
 }
 
 .grid-think {
-	grid-template-columns: repeat(4, 1fr);
-	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 100vh);
+	width: 100%;
 	max-width: 100%;
+	margin: 0 auto;
 
-	& .think-outside {
-		grid-column: 1/4;
-		grid-row: 1 / 2;
+	grid-template-areas:
+		'think-outside think-outside'
+		'green-sq white-sq'
+		'white-sq green-sq';
+
+	& div.think-outside {
+		/* height: 10vh; */
+		grid-area: 'think-outside';
 	}
 
-	& .green-sq,
-	.offwhite-sq {
-		height: 100%;
-		width: 100%;
+	& .green-sq {
+		/* height: 100px; */
+		grid-area: 'green-sq';
+
+		background-color: var(--fern-green);
+	}
+
+	& .white-sq {
+		/* height: 100px; */
+		grid-area: 'white-sq';
+		background-color: white;
 	}
 }

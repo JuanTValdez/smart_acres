@@ -5,6 +5,10 @@ nav {
 	padding: 0% 5% 0 5%;
 }
 
+.logo {
+	border: 20px solid pink;
+}
+
 .links {
 	/* max-width: 40%; */
 	display: flex;
