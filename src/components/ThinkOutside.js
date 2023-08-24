@@ -7,8 +7,8 @@ export default function ThinkOutside() {
 			<div className='think-outside'></div>
 			<div className='green-sq'></div>
 			<div className='white-sq'></div>
-			<div className='green-sq'></div>
 			<div className='white-sq'></div>
+			<div className='green-sq'></div>
 		</div>
 	);
 }
