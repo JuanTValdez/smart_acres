@@ -1,0 +1,21 @@
+.container {
+	outline: none;
+	/* width: 100%; */
+}
+
+.grid-think {
+	grid-template-columns: repeat(4, 1fr);
+	margin: 0 auto;
+	max-width: 100%;
+
+	& .think-outside {
+		grid-column: 1/4;
+		grid-row: 1 / 2;
+	}
+
+	& .green-sq,
+	.offwhite-sq {
+		height: 100%;
+		width: 100%;
+	}
+}

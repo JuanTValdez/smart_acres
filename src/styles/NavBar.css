@@ -1,7 +1,8 @@
-.nav-container {
-	width: 100%;
-	margin: 0 auto;
-	outline: none;
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0% 5% 0 5%;
 }
 
 .links {
@@ -9,6 +10,7 @@
 	display: flex;
 	justify-content: space-between;
 	gap: 1.5em;
+	margin: 25px 0;
 
 	& p {
 		font-size: 1.15em;
@@ -16,7 +18,7 @@
 		font-weight: 500;
 		line-height: 1.17;
 		letter-spacing: -0.45px;
-		margin: 25px 0;
+
 		color: var(--gunmetal);
 	}
 }

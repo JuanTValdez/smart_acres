@@ -72,38 +72,6 @@ body {
   font-family: 'Ultra';
 } */
 
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0% 5% 0 5%;
-	outline: 2px solid green;
-}
-.nav_bar {
-	height: 10vh;
-	width: 100vw;
-
-	background-color: #fcfff5;
-}
-
-.nav_links {
-	display: flex;
-	flex-direction: row;
-	/* justify-content: space-between;  */
-}
-
-.nav_links span {
-	margin: auto 13px auto 13px;
-	font-family: 'Work Sans', sans-serif;
-	/* font-size: 0.968vmax; */
-	font-size: 0.968em;
-	line-height: 1.17;
-	letter-spacing: -0.45px;
-
-	color: var(--charcoal);
-	/* outline: 2px solid purple; */
-}
-
 .logo {
 	border: 2px solid pink;
 }
