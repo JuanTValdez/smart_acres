@@ -35,4 +35,9 @@
 		grid-column: 3 / 5;
 		background-color: var(--fern-green);
 	}
+
+	& .green-sq {
+		color: beige;
+		padding: 90px 180px;
+	}
 }

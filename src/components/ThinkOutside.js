@@ -5,10 +5,12 @@ export default function ThinkOutside() {
 	return (
 		<div className='container grid-think'>
 			<div className='think-outside'></div>
-			<div className='green-sq'></div>
+			<div className='green-sq'>
+				Empowering the world through accessible cuisine ...
+			</div>
 			<div className='white-sq'></div>
 			<div className='white-sq'></div>
-			<div className='green-sq'></div>
+			<div className='green-sq'>… driven by healthy lifestyle choices.</div>
 		</div>
 	);
 }
