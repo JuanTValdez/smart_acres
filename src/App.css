@@ -89,7 +89,7 @@ body {
 
 /* TRY ADDING MARGINS TO TEXT */
 .intro-text-1 {
-	font-family: 'Clarendon-Lig';
+	font-family: 'Clarendon-Lig', sans-serif;
 	font-size: 4.6em;
 	line-height: 1.15;
 	letter-spacing: -1.85px;

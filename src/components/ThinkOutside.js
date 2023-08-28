@@ -10,7 +10,7 @@ export default function ThinkOutside() {
 			</div>
 			<div className='white-sq'></div>
 			<div className='white-sq'></div>
-			<div className='green-sq'>… driven by healthy lifestyle choices.</div>
+			<div className='green-sq'></div>
 		</div>
 	);
 }
