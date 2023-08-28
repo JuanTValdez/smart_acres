@@ -44,6 +44,8 @@
 		letter-spacing: -1.85px;
 		color: var(--beige);
 
-		color: beige;
+		& p {
+			width: 60%;
+		}
 	}
 }
