@@ -18,11 +18,7 @@
 	--coral: #fe4e48;
 	--off-white: #fcfff5;
 	--amethyst: #96c;
-
-	/* Fonts  */
-	--clarendon-urw-reg: Clarendon-Lig, sans-serif;
 }
-
 * {
 	box-sizing: border-box;
 	margin: 0;

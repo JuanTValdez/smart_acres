@@ -21,8 +21,8 @@
 		background-color: var(--fern-green);
 		padding: 40% 0 0 17%;
 		& p {
-			width: 65%;
-			font-family: ClarendonURW-Lig;
+			width: 80%;
+			font-family: 'ClarendonURW-Lig';
 			font-size: 4.5em;
 			line-height: 1.15;
 			letter-spacing: -1.85px;
@@ -44,14 +44,11 @@
 		background-color: var(--fern-green);
 		padding: 17% 0 0 15%;
 		& p {
-			width: 65%;
-
-			font-family: ClarendonURW-Lig;
+			width: 80%;
+			font-family: 'ClarendonURW-Lig';
 			font-size: 4.5em;
-
-			line-height: 1.22;
+			line-height: 1.15;
 			letter-spacing: -1.85px;
-			text-align: left;
 			color: var(--beige);
 		}
 	}
