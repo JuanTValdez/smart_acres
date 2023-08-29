@@ -3,9 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 @font-face {
-	font-family: 'Clarendon-Lig';
-	src: local('Clarendon-light-DTC'),
-		url('./fonts/Clarendon-Light-DTC.ttf') format('truetype');
+	font-family: ClarendonURW-Lig;
+	src: local('../fonts/ClarendonURW.ttf') format('truetype'),
+		local('../fonts/ClarendonURW.woff') format('woff2'),
+		local('../fonts/ClarendonURW.woff2') format('woff'),
+		local('../fonts/ClarendonURW.ttf') format('truetype');
 }
 
 body {

@@ -6,11 +6,13 @@ export default function ThinkOutside() {
 		<div className='container grid-think'>
 			<div className='think-outside'></div>
 			<div className='green-sq'>
-				Empowering the world through accessible cuisine ...
+				<p>Empowering the world through accessible cuisine ...</p>
 			</div>
 			<div className='white-sq'></div>
 			<div className='white-sq'></div>
-			<div className='green-sq'></div>
+			<div className='green-sq'>
+				<p>… driven by healthy lifestyle choices.</p>
+			</div>
 		</div>
 	);
 }
