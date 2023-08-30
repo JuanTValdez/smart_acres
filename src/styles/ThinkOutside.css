@@ -13,13 +13,14 @@
 
 	.think-outside {
 		grid-column: 1 / 5;
-		background-color: aqua;
 
 		& p:nth-child(1) {
-			width: 597px;
+			/* width: 597px; */
 			height: 21px;
-			margin: 0 0 18px;
+			margin: 293px 0 98px 166px;
+
 			font-family: 'Work Sans', sans-serif;
+			text-transform: uppercase;
 			font-size: 1.125em;
 			font-weight: 600;
 
@@ -29,7 +30,18 @@
 			color: var(--charcoal);
 		}
 
-		&
+		& p:nth-child(2) {
+			width: 717px;
+			height: 288px;
+			margin: 80px 77px 5px 166px;
+			font-family: 'ClarendonURW-Lig';
+			font-size: 6.125em;
+
+			line-height: 1.08;
+			letter-spacing: -0.88px;
+			text-align: left;
+			color: var(--dark-pastel-green);
+		}
 
 		& p:nth-child(3) {
 			width: 510px;

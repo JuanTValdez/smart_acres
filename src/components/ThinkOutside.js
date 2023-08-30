@@ -17,14 +17,14 @@ export default function ThinkOutside() {
 				</p>
 			</div>
 
-			{/* <div className='green-sq'>
+			<div className='green-sq'>
 				<p>Empowering the world through accessible cuisine ...</p>
 			</div>
 			<div className='white-sq'></div>
 			<div className='white-sq'></div>
 			<div className='green-sq'>
 				<p>… driven by healthy lifestyle choices.</p>
-			</div> */}
+			</div>
 		</div>
 	);
 }
