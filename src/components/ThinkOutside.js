@@ -5,7 +5,9 @@ export default function ThinkOutside() {
 	return (
 		<div className='container grid-think'>
 			<div className='think-outside'>
-				<p>Think Outside the Box, Think Inside the crops</p>
+				<p>
+					<span>Thi</span>nk Outside the Box, Think Inside the crops
+				</p>
 				<p>The Evolution of Agriculture</p>
 				<p>
 					Hello, lettuce lovers! You're here because, just like us, you're
