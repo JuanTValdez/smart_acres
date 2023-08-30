@@ -11,9 +11,22 @@
 	max-width: 100%;
 	margin: 0 auto;
 
-	& .think-outside {
+	.think-outside {
 		grid-column: 1 / 5;
 		background-color: aqua;
+
+		& p:nth-child(3) {
+			width: 510px;
+			height: 302px;
+			margin: 5px 165px 0 152px;
+			font-family: 'Work Sans', sans-serif;
+			font-size: 24px;
+
+			line-height: 1.58;
+			letter-spacing: -0.72px;
+			text-align: left;
+			color: var(--gunmetal);
+		}
 	}
 
 	& .green-sq:nth-child(2) {

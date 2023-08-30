@@ -10,9 +10,10 @@ export default function ThinkOutside() {
 				<p>
 					Hello, lettuce lovers! You're here because, just like us, you're
 					passionate about high-quality local foods that are healthy,
-					sustainable and long-term economical. We're constantly thinking of
-					ways to provide you with the happiest experience while enjoying our
-					crisp and super-fresh greens!
+					sustainable and long-term economical. <br />
+					<br />
+					We're constantly thinking of ways to provide you with the happiest
+					experience while enjoying our crisp and super-fresh greens!
 				</p>
 			</div>
 
