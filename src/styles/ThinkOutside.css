@@ -15,16 +15,31 @@
 		grid-column: 1 / 5;
 		background-color: aqua;
 
+		& p:nth-child(1) {
+			width: 597px;
+			height: 21px;
+			margin: 0 0 18px;
+			font-family: 'Work Sans', sans-serif;
+			font-size: 1.125em;
+			font-weight: 600;
+
+			line-height: 1.17;
+			letter-spacing: 3.06px;
+
+			color: var(--charcoal);
+		}
+
+		&
+
 		& p:nth-child(3) {
 			width: 510px;
 			height: 302px;
 			margin: 5px 165px 0 152px;
 			font-family: 'Work Sans', sans-serif;
-			font-size: 24px;
-
+			font-size: 1.5em;
 			line-height: 1.58;
 			letter-spacing: -0.72px;
-			text-align: left;
+
 			color: var(--gunmetal);
 		}
 	}
