@@ -1,0 +1,32 @@
+.grid-template {
+}
+
+.title-phrase {
+	text-transform: uppercase;
+	max-width: 25%;
+	height: 21px;
+	margin: 155px 0 18px 165px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.17;
+	letter-spacing: 3.06px;
+
+	color: var(--charcoal);
+	& span {
+		text-decoration: underline;
+		text-underline-offset: 1.125em;
+	}
+}
+
+.meetTeam {
+	width: 681px;
+	height: 288px;
+	margin: 80px 0 0 165px;
+	font-family: 'ClarendonURW-Lig', sans-serif;
+	font-size: 98px;
+	line-height: 1.08;
+	letter-spacing: -0.88px;
+	text-align: left;
+	color: var(--dark-pastel-green);
+}
