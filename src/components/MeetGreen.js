@@ -4,7 +4,7 @@ import OakLeaf from '../images/threelettuce_med.png';
 export default function MeetGreen() {
 	return (
 		<div className='grid-template'>
-			<div>
+			<div className='column-spread'>
 				<p className='title-phrase'>
 					<span>Gro</span>wing beyond the status quo
 				</p>
@@ -13,9 +13,6 @@ export default function MeetGreen() {
 
 			<div>
 				<img src={OakLeaf} alt='Oak Leafs' />
-			</div>
-
-			<div>
 				<h1 className='oakLeaf'> Oak Leaf</h1>
 				<p className='oakText'>
 					Vibrant leaves with a regal crown of serrated tips. The edges play
@@ -23,6 +20,8 @@ export default function MeetGreen() {
 					heart.
 				</p>
 			</div>
+
+			<div></div>
 		</div>
 	);
 }

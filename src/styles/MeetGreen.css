@@ -1,4 +1,11 @@
 .grid-template {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.column-spread {
+	grid-column: 1 / 5;
+	max-height: 96vh;
 }
 
 .title-phrase {
