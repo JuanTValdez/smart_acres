@@ -13,7 +13,7 @@ export default function MeetGreen() {
 				</div>
 
 				<div className='oak-img'>
-					<img src={OakLeaf} alt='Oak Leafs' />
+					<img src={OakLeaf} alt='' />
 				</div>
 				<div className='text-container'>
 					<h1 className='text-1'> Oak Leaf</h1>
