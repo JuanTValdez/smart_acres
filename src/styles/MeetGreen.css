@@ -14,23 +14,26 @@
 .oak-img {
 	grid-column: 1 / 4;
 	max-height: 96vh;
+	/* overflow: hidden; */
+	background-color: red;
+}
 
-	& img {
-		height: 100%;
-		width: 100%;
-		object-fit: cover;
-	}
+.text-container,
+.oak-img {
+	grid-row: 2 / 2;
+}
+
+.oak-img img {
+	height: 100%;
+	width: 118.5%;
+	object-position: -200px 0%;
+	object-fit: fill;
 }
 
 .text-container {
 	grid-column: 3 / -1;
 	max-height: 96vh;
 	/* padding: 13em 0 0 0; */
-}
-
-.text-container,
-.oak-img {
-	grid-row: 2 / 2;
 }
 
 .title-phrase {

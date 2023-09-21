@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/IntroSection.css';
-import Lettuceplate from '../images/lettuceplate_sml.png';
+import Lettuceplate from '../images/lettuceplate_lrg.png';
 
 export default function IntroSection() {
 	return (
