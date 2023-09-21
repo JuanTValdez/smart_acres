@@ -18,9 +18,9 @@ export default function MeetGreen() {
 				<div className='text-container'>
 					<h1 className='text-1'> Oak Leaf</h1>
 					<p className='text-2'>
-						Vibrant leaves with a regal crown of serrated tips. The edges play
-						into a soft texture that quickly venture into a crisp bite at the
-						heart.
+						Everyone’s favorite in a variety of salads, this beautiful bouquet
+						of greenery mimics the leaves of an oak tree with elegant folds and
+						round tips.
 					</p>
 				</div>
 

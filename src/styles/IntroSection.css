@@ -15,6 +15,10 @@
 	text-align: left;
 	margin: 13em 0 0 8.9%;
 }
+.intro-image {
+	grid-column: 3 / -1;
+	max-height: 96vh;
+}
 
 .intro-image,
 .intro-content {
