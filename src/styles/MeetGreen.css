@@ -30,13 +30,6 @@
 	object-fit: cover;
 }
 
-/* .oak-img img {
-	height: 100%;
-	width: 118.5%;
-	object-position: -200px 0%;
-	object-fit: fill;
-} */
-
 .text-container {
 	grid-column: 3 / -1;
 	max-height: 96vh;
@@ -99,4 +92,44 @@
 		text-align: left;
 		color: var(--gunmetal);
 	}
+}
+
+.ultra-txt {
+	border: 2px solid pink;
+	grid-column: 1 / 6;
+	min-height: 306px;
+
+	& p {
+		width: 780px;
+		height: 306px;
+		margin: 231px 975px 15px 165px;
+		font-family: 'ClarendonURW-Lig;';
+		font-size: 56px;
+
+		line-height: 1.25;
+		letter-spacing: -1.4px;
+		text-align: left;
+		color: var(--fern-green);
+	}
+}
+
+.interested-txt {
+	width: 495px;
+	height: 162px;
+
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.5em;
+
+	line-height: 1.58;
+	letter-spacing: -0.72px;
+	text-align: left;
+	color: var(--gunmetal);
+}
+
+.free-lettuce-btn {
+	width: 369px;
+	height: 65px;
+
+	padding: 14px 63px 18px 64px;
+	background-color: var(--coral);
 }
