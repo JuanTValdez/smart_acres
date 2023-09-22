@@ -13,8 +13,8 @@
 
 .oak-img {
 	grid-column: 1 / 4;
-	max-height: 96vh;
-	/* overflow: hidden; */
+	max-height: 70vh;
+
 	background-color: red;
 }
 
@@ -25,10 +25,17 @@
 
 .oak-img img {
 	height: 100%;
+	width: 115%;
+	object-position: -8.9vw;
+	object-fit: cover;
+}
+
+/* .oak-img img {
+	height: 100%;
 	width: 118.5%;
 	object-position: -200px 0%;
 	object-fit: fill;
-}
+} */
 
 .text-container {
 	grid-column: 3 / -1;

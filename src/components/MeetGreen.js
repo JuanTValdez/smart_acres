@@ -1,7 +1,8 @@
 import React from 'react';
 import '../styles/MeetGreen.css';
-import OakLeaf from '../images/threelettuce_med.png';
+import OakLeaf from '../images/threelettuce_lrg.png';
 export default function MeetGreen() {
+	console.log(1440 * 1.25);
 	return (
 		<div>
 			<div className='grid-template'>
