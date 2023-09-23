@@ -114,9 +114,10 @@
 }
 
 .interested-txt {
-	width: 495px;
+	/* width: 495px; */
+	grid-column: 1 / -5;
 	height: 162px;
-
+	margin: 71px 0 0 165px;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 1.5em;
 
@@ -129,7 +130,28 @@
 .free-lettuce-btn {
 	width: 369px;
 	height: 65px;
-
-	padding: 14px 63px 18px 64px;
+	padding: 0 64px;
 	background-color: var(--coral);
+
+	& p {
+		width: 242px;
+		height: 33px;
+		margin: 46px 0 0 0;
+		font-family: 'ClarendonURW-Reg', sans-serif;
+		color: var(--off-white);
+		font-size: 24px;
+		line-height: 2.79;
+		text-align: center;
+	}
+}
+
+.tomato-lettuce {
+	grid-column: 2/6;
+	/* width: 70vw; */
+
+	& img {
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+	}
 }

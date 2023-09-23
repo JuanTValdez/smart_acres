@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/MeetGreen.css';
 import OakLeaf from '../images/threelettuce_lrg.png';
-// import TomatoLettuce from '../images/tomatosalad_med.png';
+import TomatoLettuce from '../images/tomatosalad_med.png';
 export default function MeetGreen() {
 	return (
 		<div>
@@ -44,9 +44,9 @@ export default function MeetGreen() {
 					</div>
 				</div>
 
-				{/* <div className='tomato-lettuce'>
+				<div className='tomato-lettuce'>
 					<img src={TomatoLettuce} alt='' />
-				</div> */}
+				</div>
 			</div>
 		</div>
 	);
