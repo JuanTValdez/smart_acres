@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/MeetGreen.css';
 import OakLeaf from '../images/threelettuce_lrg.png';
-import TomatoLettuce from '../images/tomatosalad_med.png';
+// import TomatoLettuce from '../images/tomatosalad_med.png';
 export default function MeetGreen() {
 	return (
 		<div>
@@ -30,22 +30,17 @@ export default function MeetGreen() {
 						Our ultra high-quality greens mean more on your plate and less in
 						the bin.
 					</p>
-				</div>
+					<div className='interested-txt'>
+						<p>
+							If you're interested to see how and would love a chance to receive
+							a complimentary care package of our amazing lettuces, drop us a
+							message and say hi!
+						</p>
 
-				<div className='interested-txt'>
-					<p>
-						If you're interested to see how and would love a chance to receive a
-						complimentary care package of our amazing lettuces, drop us a
-						message and say hi!
-					</p>
-
-					<div className='free-lettuce-btn'>
-						<p>Free Lettuce, Please!</p>
+						<div className='free-lettuce-btn'>
+							<p className='free-btn'>Free Lettuce, Please!</p>
+						</div>
 					</div>
-				</div>
-
-				<div className='tomato-lettuce'>
-					<img src={TomatoLettuce} alt='' />
 				</div>
 			</div>
 		</div>

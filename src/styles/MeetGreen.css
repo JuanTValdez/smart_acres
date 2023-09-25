@@ -1,21 +1,19 @@
 .grid-template {
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: repeat(10, 1fr);
 	margin: 0 auto;
 	max-width: 100%;
 }
 
 .column-spread {
-	grid-column: 1 / 5;
+	grid-column: 1 / 10;
 	grid-row: 1/1;
 	max-height: 96vh;
 }
 
 .oak-img {
-	grid-column: 1 / 4;
+	grid-column: 1 / 6;
 	max-height: 70vh;
-
-	background-color: red;
 }
 
 .text-container,
@@ -25,20 +23,14 @@
 
 .oak-img img {
 	height: 100%;
-	width: 115%;
+	width: 121%;
 	object-position: -8.9vw;
 	object-fit: cover;
 }
 
-.text-container {
-	grid-column: 3 / -1;
-	max-height: 96vh;
-	/* padding: 13em 0 0 0; */
-}
-
 .title-phrase {
 	text-transform: uppercase;
-	max-width: 25%;
+	max-width: 35%;
 	height: 21px;
 	margin: 155px 0 18px 165px;
 	font-family: 'Work Sans', sans-serif;
@@ -57,7 +49,7 @@
 .meetTeam {
 	width: 681px;
 	height: 288px;
-	margin: 80px 0 0 165px;
+	margin: 80px 0 0 0;
 	font-family: 'ClarendonURW-Lig', sans-serif;
 	font-size: 98px;
 	line-height: 1.08;
@@ -67,12 +59,13 @@
 }
 
 .text-container {
-	margin: 0 0 0 320px;
+	grid-column: 5 / -1;
+	max-height: 96vh;
+	margin: 124px 0 0 165px;
 
 	& .text-1 {
 		width: 684px;
-		height: 120px;
-		margin: 145px 0 5px 0;
+
 		padding: 0 88px 0 0;
 		font-family: 'ClarendonURW-Lig';
 		font-size: 56px;
@@ -95,12 +88,11 @@
 }
 
 .ultra-txt {
-	border: 2px solid pink;
 	grid-column: 1 / 6;
 	min-height: 306px;
 
 	& p {
-		width: 780px;
+		min-width: 680px;
 		height: 306px;
 		margin: 231px 975px 15px 165px;
 		font-family: 'ClarendonURW-Lig;';
@@ -114,32 +106,38 @@
 }
 
 .interested-txt {
-	/* width: 495px; */
-	grid-column: 1 / -5;
-	height: 162px;
-	margin: 71px 0 0 165px;
-	font-family: 'Work Sans', sans-serif;
-	font-size: 1.5em;
+	grid-column: 1 / 5;
 
-	line-height: 1.58;
-	letter-spacing: -0.72px;
-	text-align: left;
-	color: var(--gunmetal);
+	border: 2px solid red;
+	& p {
+		height: 162px;
+		width: 495px;
+		margin: 0 0 0 165px;
+		font-family: 'Work Sans', sans-serif;
+		font-size: 1.5em;
+
+		line-height: 1.58;
+		letter-spacing: -0.72px;
+		text-align: left;
+		color: var(--gunmetal);
+	}
 }
 
 .free-lettuce-btn {
 	width: 369px;
 	height: 65px;
-	padding: 0 64px;
+	/* padding: 0 64px; */
+	margin: 0 0 0 165px;
 	background-color: var(--coral);
 
-	& p {
+	& .free-btn {
 		width: 242px;
 		height: 33px;
-		margin: 46px 0 0 0;
+		margin: 0;
+
 		font-family: 'ClarendonURW-Reg', sans-serif;
 		color: var(--off-white);
-		font-size: 24px;
+		font-size: 1.5ems;
 		line-height: 2.79;
 		text-align: center;
 	}
