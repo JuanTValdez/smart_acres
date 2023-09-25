@@ -89,13 +89,12 @@
 
 .ultra-txt {
 	grid-column: 1 / 6;
-	min-height: 306px;
-	margin: 0 0 15px 165px;
+	min-height: 220px;
+	margin: 231px 0px 0px 165px;
 
 	& .txt-1 {
-		min-width: 680px;
-		height: 306px;
-
+		max-width: 680px;
+		margin: 0 0 86px 0;
 		font-family: 'ClarendonURW-Lig;';
 		font-size: 56px;
 
@@ -109,11 +108,10 @@
 .interested-txt {
 	grid-column: 1 / 5;
 
-	border: 2px solid red;
 	& .txt-2 {
 		height: 162px;
 		width: 495px;
-		/* margin: 0 0 0 165px; */
+
 		font-family: 'Work Sans', sans-serif;
 		font-size: 1.5em;
 
@@ -127,14 +125,13 @@
 .free-lettuce-btn {
 	width: 369px;
 	height: 65px;
-	/* padding: 0 64px; */
-	margin: 15px 0 0 0;
+
 	background-color: var(--coral);
 
 	& .free-btn {
 		width: 242px;
 		height: 33px;
-		margin: 0 auto;
+		margin: 30px auto 0 auto;
 
 		font-family: 'ClarendonURW-Reg', sans-serif;
 		color: var(--off-white);
