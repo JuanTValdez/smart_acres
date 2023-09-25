@@ -26,12 +26,12 @@ export default function MeetGreen() {
 				</div>
 
 				<div className='ultra-txt'>
-					<p>
+					<p className='txt-1'>
 						Our ultra high-quality greens mean more on your plate and less in
 						the bin.
 					</p>
 					<div className='interested-txt'>
-						<p>
+						<p className='txt-2'>
 							If you're interested to see how and would love a chance to receive
 							a complimentary care package of our amazing lettuces, drop us a
 							message and say hi!

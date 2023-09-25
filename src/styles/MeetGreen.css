@@ -90,11 +90,12 @@
 .ultra-txt {
 	grid-column: 1 / 6;
 	min-height: 306px;
+	margin: 0 0 15px 165px;
 
-	& p {
+	& .txt-1 {
 		min-width: 680px;
 		height: 306px;
-		margin: 231px 975px 15px 165px;
+
 		font-family: 'ClarendonURW-Lig;';
 		font-size: 56px;
 
@@ -109,10 +110,10 @@
 	grid-column: 1 / 5;
 
 	border: 2px solid red;
-	& p {
+	& .txt-2 {
 		height: 162px;
 		width: 495px;
-		margin: 0 0 0 165px;
+		/* margin: 0 0 0 165px; */
 		font-family: 'Work Sans', sans-serif;
 		font-size: 1.5em;
 
@@ -127,17 +128,17 @@
 	width: 369px;
 	height: 65px;
 	/* padding: 0 64px; */
-	margin: 0 0 0 165px;
+	margin: 15px 0 0 0;
 	background-color: var(--coral);
 
 	& .free-btn {
 		width: 242px;
 		height: 33px;
-		margin: 0;
+		margin: 0 auto;
 
 		font-family: 'ClarendonURW-Reg', sans-serif;
 		color: var(--off-white);
-		font-size: 1.5ems;
+		font-size: 1.5em;
 		line-height: 2.79;
 		text-align: center;
 	}
