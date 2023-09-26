@@ -12,7 +12,13 @@ export default function Footer() {
 						<img src={Greenhouse} alt='' />
 					</div>
 
-					<div className='sign-up'>Sign Up</div>
+					<div className='sign-up'>
+						<p className='txt-1'>Ready To start your Smart Acres journey?</p>
+						<p className='txt-2'>
+							Keep in touch with our farm because there's a lot to be grown and
+							especially a lot more to be tasted!
+						</p>
+					</div>
 				</div>
 				{/* Bottom of Footer */}
 

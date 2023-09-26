@@ -14,8 +14,6 @@
 }
 
 .footer-bottom {
-	/* width: 1920px; */
-	height: 50vh;
 	padding: 145px 165px 135px;
 	background-color: var(--charcoal);
 }
@@ -27,17 +25,24 @@
 		height: 100%;
 		width: 100%;
 		object-fit: cover;
+		object-position: 0 -44.6vh;
 	}
 }
 .sign-up {
 	grid-column: 2/3;
 
-	/* padding: 93px 165px 105px 150px; */
+	padding: 93px 165px 105px 150px;
 	background-color: var(--coral);
 }
 
 .greenhouse-img,
 .sign-up {
 	grid-row: 1/1;
+	height: 50vh;
+}
+
+.path,
+.subscribe {
+	grid-row: 2/2;
 	height: 50vh;
 }
