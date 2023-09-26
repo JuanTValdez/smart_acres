@@ -24,7 +24,7 @@ export default function Footer() {
 				{/* Bottom of Footer */}
 
 				<div className='footer-bottom'>
-					<div className='path'>
+					<div className='subscribe'>
 						<p className='txt-3'>
 							Sign up for our newsletter to stay in touch.
 						</p>
@@ -43,7 +43,13 @@ export default function Footer() {
 							&copy; 2020 Smart Acres all rights reserved.
 						</p>
 					</div>
-					<div className='subscribe'></div>{' '}
+					<div className='media'>
+						<div className='logo'>Smart Acres</div>
+						<div className='media-links'>
+							<a href='#' class='fa fa-facebook'></a>
+							<a href='#' class='fa fa-twitter'></a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
