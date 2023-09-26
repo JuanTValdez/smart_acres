@@ -1,0 +1,43 @@
+/* .grid-footer {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0 auto;
+	max-width: 100%;
+} */
+
+.footer-top,
+.footer-bottom {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.footer-bottom {
+	/* width: 1920px; */
+	height: 50vh;
+	padding: 145px 165px 135px;
+	background-color: var(--charcoal);
+}
+
+.greenhouse-img {
+	grid-column: 1/1;
+
+	& img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+.sign-up {
+	grid-column: 2/3;
+
+	/* padding: 93px 165px 105px 150px; */
+	background-color: var(--coral);
+}
+
+.greenhouse-img,
+.sign-up {
+	grid-row: 1/1;
+	height: 50vh;
+}
