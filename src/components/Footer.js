@@ -1,6 +1,9 @@
 import React from 'react';
 import '../styles/Footer.css';
 import Greenhouse from '../images/greenhouse_sml.png';
+import Facebook from
+import Instagram from
+import Twitter from
 
 export default function Footer() {
 	return (
@@ -46,9 +49,10 @@ export default function Footer() {
 					<div className='media'>
 						<div className='logo'>Smart Acres</div>
 						<div className='media-links'>
-							<a href='#' class='fa fa-facebook'></a>
-							<a href='#' class='fa fa-twitter'></a>
-						</div>
+							<img src={} alt="" className="facebook" />
+              <img src={} alt="" className="instagram" />
+        <img src={} alt="" className="twitter" />
+            </div>
 					</div>
 				</div>
 			</div>
