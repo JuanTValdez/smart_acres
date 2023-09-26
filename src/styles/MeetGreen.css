@@ -9,6 +9,7 @@
 	grid-column: 1 / 10;
 	grid-row: 1/1;
 	max-height: 96vh;
+	margin: 0 0 0 165px;
 }
 
 .oak-img {
@@ -32,7 +33,7 @@
 	text-transform: uppercase;
 	max-width: 35%;
 	height: 21px;
-	margin: 155px 0 18px 165px;
+	margin: 155px 0 18px 0;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
@@ -141,13 +142,14 @@
 	}
 }
 
+.interested-txt,
 .tomato-lettuce {
-	grid-column: 2/6;
-	/* width: 70vw; */
+	grid-row: 3/3;
+}
 
-	& img {
-		height: 100%;
-		width: 100%;
-		object-fit: contain;
-	}
+.tomato-lettuce {
+	grid-column: 6/-1;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
