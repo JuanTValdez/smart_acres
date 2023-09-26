@@ -43,7 +43,9 @@ export default function MeetGreen() {
 						</div>
 					</div>
 				</div>
-				<img className='tomato-lettuce' src={TomatoLettuce} alt=''></img>
+				<div className='tomato-lettuce'>
+					<img src={TomatoLettuce} alt=''></img>
+				</div>
 			</div>
 		</div>
 	);

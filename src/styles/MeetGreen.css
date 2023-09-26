@@ -142,14 +142,22 @@
 	}
 }
 
-.interested-txt,
+.ultra-txt,
 .tomato-lettuce {
 	grid-row: 3/3;
 }
 
 .tomato-lettuce {
-	grid-column: 6/-1;
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
+	grid-column: 4/-1;
+	width: 1275px;
+	height: 885px;
+	margin: 481px 0 4381px 36px;
+	z-index: -1;
+	background-color: red;
+	
+	& img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
 }
