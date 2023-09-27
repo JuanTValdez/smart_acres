@@ -46,7 +46,8 @@
 .txt-1,
 .txt-2,
 .txt-4,
-.signup-btn, .copyright,
+.sign-up-btn,
+.copyright,
 .logo {
 	color: var(--off-white);
 }
@@ -74,4 +75,28 @@
 }
 
 .copyright {
+	width: 601px;
+	height: 36px;
+	margin: 40px 666px 0 0;
+	font-size: 0.88em;
+	line-height: 1.78;
+	letter-spacing: -0.45px;
+}
+
+.txt-3 {
+	width: 566px;
+	height: 117px;
+	margin: 0 701px 21px 0;
+	font-size: 2.62em;
+	line-height: 1.21;
+	color: var(--dark-pastel-green);
+}
+
+.txt-4 {
+	width: 510px;
+	height: 65px;
+	margin: 23px 757px 18px 0;
+	font-size: 0.875em;
+	line-height: 1.43;
+	letter-spacing: -0.35px;
 }

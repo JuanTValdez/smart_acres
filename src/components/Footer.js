@@ -21,7 +21,7 @@ export default function Footer() {
 							Keep in touch with our farm because there's a lot to be grown and
 							especially a lot more to be tasted!
 						</p>
-						<p className='signup-btn'>Sign Me Up!</p>
+						<p className='sign-up-btn'>Sign Me Up!</p>
 					</div>
 				</div>
 				{/* Bottom of Footer */}
