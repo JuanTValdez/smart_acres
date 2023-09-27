@@ -31,7 +31,7 @@ export default function Footer() {
 						<p className='txt-3'>
 							Sign up for our newsletter to stay in touch.
 						</p>
-						<input className='email' type='text' placeholder='Email' />
+						<input className='email' type='text' placeholder=' Email' />
 
 						<button className='subscribe-btn'>Subscribe</button>
 
