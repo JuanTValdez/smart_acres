@@ -29,6 +29,18 @@
 	height: 50vh;
 }
 
+.txt-1 {
+	width: 645px;
+	height: 122px;
+	margin: 0 0 6px;
+	font-family: 'ClarendonURW-Lig', sans-serif;
+	font-size: 2.625rem;
+
+	line-height: 1.21;
+
+	/* text-align: left; */
+	color: var(--off-white);
+}
 /* Bottom Footer */
 
 .footer-bottom {
