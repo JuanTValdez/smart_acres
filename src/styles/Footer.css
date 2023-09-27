@@ -62,7 +62,7 @@
 /* Bottom Footer */
 
 .footer-bottom {
-	padding: 145px 165px 135px;
+	padding: 145px 165px 135px 165px;
 	background-color: var(--charcoal);
 }
 
@@ -90,7 +90,7 @@
 .subscribe,
 .media {
 	grid-row: 2/2;
-	height: 50vh;
+	/* height: 50vh; */
 }
 
 .terms-of-use {
@@ -99,6 +99,7 @@
 
 .copyright {
 	width: 601px;
+	padding: 16px 54px 17px 58px;
 	height: 36px;
 	/* margin: 40px 666px 0 0; */
 	font-size: 0.88rem;
@@ -144,8 +145,20 @@
 .txt-4 {
 	width: 510px;
 	height: 65px;
-	margin: 23px 0px 18px 0;
+	margin: 23px 0px 0px 0;
 	font-size: 0.875rem;
 	line-height: 1.43;
 	letter-spacing: -0.35px;
+}
+
+.media {
+	margin-left: auto;
+}
+.media-links {
+	display: flex;
+	min-width: 10vw;
+	min-height: 15vh;
+	align-content: space-evenly;
+	gap: 2rem;
+	/* margin-left: auto; */
 }
