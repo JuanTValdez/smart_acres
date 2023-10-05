@@ -1,20 +1,28 @@
+.our-greens {
+	margin-left: 165px;
+}
+
 .our-greens-title {
 	width: 232px;
 	height: 21px;
-	margin: 0 0 18px;
+
 	font-family: 'Work Sans', sans-serif;
-	font-size: 18px;
+	font-size: 1.125em;
 	font-weight: 600;
 
 	line-height: 1.17;
 	letter-spacing: 3.06px;
-	
+
 	color: var(--charcoal);
 
 	& span {
 		text-decoration: underline;
+		text-underline-offset: 1.125em;
 	}
 }
 
 .our-greens-descriptor {
+	width: 1590px;
+	height: 325px;
+	margin: 84px 0 0 0;
 }
