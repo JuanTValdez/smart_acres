@@ -1,4 +1,20 @@
-.our-greens-title{
+.our-greens-title {
+	width: 232px;
+	height: 21px;
+	margin: 0 0 18px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
 
-  
+	line-height: 1.17;
+	letter-spacing: 3.06px;
+	
+	color: var(--charcoal);
+
+	& span {
+		text-decoration: underline;
+	}
+}
+
+.our-greens-descriptor {
 }
