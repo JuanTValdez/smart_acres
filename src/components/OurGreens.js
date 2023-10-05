@@ -1,13 +1,16 @@
 import React from 'react';
 import '../styles/OurGreens.css';
-import Sprouts from '../images/lettuceseed_sml.png';
+import Sprouts from '../images/lettucesprout_sml.png';
+import Seeds from '../images/lettuceseed_sml.png';
+import LettucePhone from '../images/lettucephone_sml.png';
+import BeetSalad from '../images/beetsalad_sml.png';
 
 // create an array of four objects with the key values of img and text
 const greens = [
 	{ img: Sprouts, text: '365 Days a Year' },
-	{ img: '', text: 'Hyper-Local Sustainable' },
-	{ img: '', text: 'Healthy, Ultra High Quality' },
-	{ img: '', text: 'Long-Term Economical' },
+	{ img: Seeds, text: 'Hyper-Local Sustainable' },
+	{ img: LettucePhone, text: 'Healthy, Ultra High Quality' },
+	{ img: BeetSalad, text: 'Long-Term Economical' },
 ];
 export default function OurGreens() {
 	return (
