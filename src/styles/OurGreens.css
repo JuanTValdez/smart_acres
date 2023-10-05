@@ -22,7 +22,13 @@
 }
 
 .our-greens-descriptor {
-	width: 1590px;
+	max-width: 75%;
 	height: 325px;
 	margin: 84px 0 0 0;
+
+	font-family: 'ClarendonURW-Lig';
+	font-size: 4.625em;
+	line-height: 1.22;
+	letter-spacing: -1.85px;
+	color: var(--dark-pastel-green);
 }
