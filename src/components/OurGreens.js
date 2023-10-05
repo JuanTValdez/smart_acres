@@ -26,8 +26,8 @@ export default function OurGreens() {
 				</p>
 			</div>
 
-			<div>
-				<div className='images'>
+			<div className='grid-template-col'>
+				<div className='image-container'>
 					<img src={greens[0].img} alt='' />
 				</div>
 

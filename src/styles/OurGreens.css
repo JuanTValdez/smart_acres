@@ -32,3 +32,20 @@
 	letter-spacing: -1.85px;
 	color: var(--dark-pastel-green);
 }
+
+.grid-template-col {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.image-container {
+	grid-column: 1/4;
+	height: 46vh;
+	overflow: hidden;
+	& img {
+		/* height: 100%; */
+		/* width: 100%; */
+		object-fit: cover;
+		object-position: -25vw -20vh;
+	}
+}
