@@ -7,7 +7,7 @@
 	height: 21px;
 
 	font-family: 'Work Sans', sans-serif;
-	font-size: 1.125em;
+	font-size: 1.125rem;
 	font-weight: 600;
 
 	line-height: 1.17;
@@ -27,7 +27,7 @@
 	margin: 84px 0 0 0;
 
 	font-family: 'ClarendonURW-Lig';
-	font-size: 4.625em;
+	font-size: 4.625rem;
 	line-height: 1.22;
 	letter-spacing: -1.85px;
 	color: var(--dark-pastel-green);
@@ -48,4 +48,12 @@
 		object-fit: cover;
 		object-position: -25vw -20vh;
 	}
+}
+
+.txt-1 {
+	width: 645px;
+	height: 67px;
+
+	font-family: 'ClarendonURW-Med', sans-serif;
+	font-size: 3.5rem;
 }
