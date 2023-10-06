@@ -36,7 +36,7 @@
 .grid-item {
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
-	grid-template-rows: repeat(1, 1fr);
+	/* grid-template-rows: repeat(1, 1fr); */
 	margin-bottom: 7.125rem;
 }
 
@@ -52,6 +52,8 @@
 
 .txt-1 {
 	grid-column: -1/6;
+
+	/* remove px and use different value  */
 	width: 645px;
 	height: 67px;
 	margin: 66px 0 0 140px;
