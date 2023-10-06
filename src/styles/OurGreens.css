@@ -80,11 +80,12 @@
 
 		background: var(--fern-green);
 
+		padding: 31em 11.25em 3.8em 10.3em;
+
 		& p {
 			font-size: 4.625rem;
-			margin: 0 10rem auto 10rem;
-
 			font-family: 'ClarendonURW-Lig', sans-serif;
+
 			color: var(--beige);
 		}
 	}
