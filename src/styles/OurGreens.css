@@ -69,8 +69,27 @@
 	grid-row: 1/1;
 }
 
-.eat-local {
+.grid-col {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	height: 90dvh;
+	overflow: hidden;
 
+	& .eat-local {
+		grid: 1/2;
+
+		color: var(--off-white);
+		background: var(--fern-green);	
 	
+	}
 
+	& .clover-lettuce {
+		grid: 3/5;
+
+		& img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+		}
+	}
 }

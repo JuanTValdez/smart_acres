@@ -39,10 +39,14 @@ export default function OurGreens() {
 					);
 				})}
 			</div>
-			<div>
-				<div className='eat-local'></div>
 
-				<img src={CloverLettuce} alt='' className='clover-lettuce' />
+			<div className='grid-col'>
+				<div className='eat-local'>
+					Eating local means supporting your community.
+				</div>
+				<div className='clover-lettuce'>
+					<img src={CloverLettuce} alt='' />
+				</div>
 			</div>
 		</div>
 	);
