@@ -4,6 +4,7 @@ import Sprouts from '../images/lettucesprout_sml.png';
 import Seeds from '../images/lettuceseed_lrg.png';
 import LettucePhone from '../images/lettucephone_med.png';
 import BeetSalad from '../images/beetsalad_med.png';
+import CloverLettuce from '../images/cloverlettuce_sml.png';
 
 const greens = [
 	{ img: Sprouts, text: '365 Days a Year' },
@@ -37,6 +38,11 @@ export default function OurGreens() {
 						</div>
 					);
 				})}
+			</div>
+			<div>
+				<div className='eat-local'></div>
+
+				<img src={CloverLettuce} alt='' className='clover-lettuce' />
 			</div>
 		</div>
 	);
