@@ -100,3 +100,15 @@
 		}
 	}
 }
+.communities-txt {
+	grid-column: 1/5;
+
+	margin: 3em 3em 1em auto;
+	width: 40dvw;
+
+	font-family: 'ClarendonURW-Lig', sans-serif;
+	font-size: 3.5rem;
+	line-height: 1.25;
+	letter-spacing: -1.4px;
+	color: var(--fern-green);
+}
