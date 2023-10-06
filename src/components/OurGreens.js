@@ -27,11 +27,23 @@ export default function OurGreens() {
 			</div>
 
 			<div className='grid-template-col'>
-				<div className='image-container'>
+				{greens.map((green) => {
+					return (
+						<div className='grid-item'>
+							<div className='image-container'>
+								<img src={green.img} alt='' />
+							</div>
+
+							<div className='txt-1'>{green.text}</div>
+						</div>
+					);
+				})}
+
+				{/* <div className='image-container'>
 					<img src={greens[0].img} alt='' />
 				</div>
 
-				<div className='txt-1'>{greens[0].text}</div>
+				<div className='txt-1'>{greens[0].text}</div> */}
 			</div>
 		</div>
 	);

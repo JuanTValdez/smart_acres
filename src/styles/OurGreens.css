@@ -35,11 +35,11 @@
 
 .grid-template-col {
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: repeat(10, 1fr);
 }
 
 .image-container {
-	grid-column: 1/4;
+	grid-column: 1/7;
 	height: 46vh;
 	overflow: hidden;
 	& img {
@@ -51,9 +51,18 @@
 }
 
 .txt-1 {
+	grid-column: -1/6;
 	width: 645px;
 	height: 67px;
-
-	font-family: 'ClarendonURW-Med', sans-serif;
+	margin: 66px 0 0 140px;
+	font-family: 'ClarendonURW-Lig', sans-serif;
 	font-size: 3.5rem;
+	font-weight: 500;
+	line-height: 1.25;
+	color: var(--fern-green);
+}
+
+.image-container,
+.txt-1 {
+	grid-row: 1/1;
 }
