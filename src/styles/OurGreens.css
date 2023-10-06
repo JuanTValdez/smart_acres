@@ -101,8 +101,8 @@
 	}
 }
 .communities-txt {
-	grid-column: 1/5;
-
+	/* grid-column: 1/5; */
+	max-width: 30%;
 	margin: 3em 3em 1em auto;
 	width: 40dvw;
 

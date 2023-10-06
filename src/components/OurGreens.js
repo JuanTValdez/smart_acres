@@ -47,13 +47,10 @@ export default function OurGreens() {
 				<div className='clover-lettuce'>
 					<img src={CloverLettuce} alt='' />
 				</div>
-
-				<p className='communities-txt'>
-					Our lettuce would be nothing without the communities that we serve.
-				</p>
-
-	
 			</div>
+			<p className='communities-txt'>
+				Our lettuce would be nothing without the communities that we serve.
+			</p>
 		</div>
 	);
 }
