@@ -27,9 +27,9 @@ export default function OurGreens() {
 			</div>
 
 			<div>
-				{greens.map((green) => {
+				{greens.map((green, key) => {
 					return (
-						<div className='grid-item'>
+						<div key={key} className='grid-item'>
 							<div className='image-container'>
 								<img src={green.img} alt='' />
 							</div>
@@ -42,7 +42,7 @@ export default function OurGreens() {
 
 			<div className='grid-col'>
 				<div className='eat-local'>
-					Eating local means supporting your community.
+					<p>Eating local means supporting your community.</p>
 				</div>
 				<div className='clover-lettuce'>
 					<img src={CloverLettuce} alt='' />
