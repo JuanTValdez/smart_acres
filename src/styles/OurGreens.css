@@ -33,20 +33,20 @@
 	color: var(--dark-pastel-green);
 }
 
-.grid-template-col {
+.grid-item {
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	margin-bottom: 7.125rem;
 }
 
 .image-container {
 	grid-column: 1/7;
-	height: 46vh;
-	overflow: hidden;
+	max-height: 46vh;
 	& img {
-		/* height: 100%; */
-		/* width: 100%; */
+		height: 100%;
+		width: 100%;
 		object-fit: cover;
-		object-position: -25vw -20vh;
 	}
 }
 

@@ -1,11 +1,10 @@
 import React from 'react';
 import '../styles/OurGreens.css';
 import Sprouts from '../images/lettucesprout_sml.png';
-import Seeds from '../images/lettuceseed_sml.png';
-import LettucePhone from '../images/lettucephone_sml.png';
-import BeetSalad from '../images/beetsalad_sml.png';
+import Seeds from '../images/lettuceseed_lrg.png';
+import LettucePhone from '../images/lettucephone_med.png';
+import BeetSalad from '../images/beetsalad_med.png';
 
-// create an array of four objects with the key values of img and text
 const greens = [
 	{ img: Sprouts, text: '365 Days a Year' },
 	{ img: Seeds, text: 'Hyper-Local Sustainable' },
@@ -26,7 +25,7 @@ export default function OurGreens() {
 				</p>
 			</div>
 
-			<div className='grid-template-col'>
+			<div>
 				{greens.map((green) => {
 					return (
 						<div className='grid-item'>
@@ -38,12 +37,6 @@ export default function OurGreens() {
 						</div>
 					);
 				})}
-
-				{/* <div className='image-container'>
-					<img src={greens[0].img} alt='' />
-				</div>
-
-				<div className='txt-1'>{greens[0].text}</div> */}
 			</div>
 		</div>
 	);
