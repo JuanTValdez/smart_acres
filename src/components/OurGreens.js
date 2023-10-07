@@ -5,6 +5,7 @@ import Seeds from '../images/lettuceseed_lrg.png';
 import LettucePhone from '../images/lettucephone_med.png';
 import BeetSalad from '../images/beetsalad_med.png';
 import CloverLettuce from '../images/cloverlettuce_sml.png';
+import LettuceHead from '../images/lettucemulti_sml.png';
 
 const greens = [
 	{ img: Sprouts, text: '365 Days a Year' },
@@ -43,7 +44,7 @@ export default function OurGreens() {
 				})}
 			</div>
 
-			<div className='grid-col'>
+			<div className='grid-col-10'>
 				<div className='eat-local'>
 					<p>Eating local means supporting your community.</p>
 				</div>
@@ -54,6 +55,17 @@ export default function OurGreens() {
 			<p className='communities-txt'>
 				Our lettuce would be nothing without the communities that we serve.
 			</p>
+			<div className='grid-col-10'>
+				<div className='lettuce-head'>
+					<img src={LettuceHead} alt='' />
+				</div>
+
+				<p className='challenge-txt'>
+					These are certainly challenging times, and we’re proud that our greens
+					can be used to feed front-line essential healthcare teams. We
+					appreciate all that you do. Thank you!
+				</p>
+			</div>
 		</div>
 	);
 }
