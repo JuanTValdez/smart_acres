@@ -29,13 +29,16 @@ export default function OurGreens() {
 			<div>
 				{greens.map((green, key) => {
 					return (
-						<div key={key} className='grid-item'>
-							<div className='image-container'>
-								<img src={green.img} alt='' />
-							</div>
+						console.log('Key ' + key),
+						(
+							<div key={key} className='grid-item'>
+								<div className='image-container'>
+									<img src={green.img} alt='' />
+								</div>
 
-							<div className='txt-1'>{green.text}</div>
-						</div>
+								<div className='txt-1'>{green.text}</div>
+							</div>
+						)
 					);
 				})}
 			</div>

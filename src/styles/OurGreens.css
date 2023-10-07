@@ -101,10 +101,9 @@
 	}
 }
 .communities-txt {
-	/* grid-column: 1/5; */
-	max-width: 30%;
+	/* max-width: 50%; */
 	margin: 3em 3em 1em auto;
-	width: 40dvw;
+	width: 45dvw;
 
 	font-family: 'ClarendonURW-Lig', sans-serif;
 	font-size: 3.5rem;
