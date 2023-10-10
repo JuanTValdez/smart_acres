@@ -3,8 +3,9 @@ import './App.css';
 // import Intro from './components/IntroSection.js';
 // import ThinkOutside from './components/ThinkOutside.js';
 // import MeetGreen from './components/MeetGreen.js';
-import OurGreens from './components/OurGreens.js';
+// import OurGreens from './components/OurGreens.js';
 // import Footer from './components/Footer.js';
+import OurCommunity from './components/OurCommunity.js';
 
 function App() {
 	return (
@@ -17,7 +18,8 @@ function App() {
 			{/* <ThinkOutside /> */}
 			{/* <MeetGreen /> */}
 
-			<OurGreens />
+			{/* <OurGreens /> */}
+			{<OurCommunity />}
 			{/* <Footer /> */}
 		</div>
 	);
