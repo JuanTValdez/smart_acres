@@ -4,8 +4,8 @@ import './App.css';
 // import ThinkOutside from './components/ThinkOutside.js';
 // import MeetGreen from './components/MeetGreen.js';
 // import OurGreens from './components/OurGreens.js';
-// import Footer from './components/Footer.js';
 import OurCommunity from './components/OurCommunity.js';
+// import Footer from './components/Footer.js';
 
 function App() {
 	return (

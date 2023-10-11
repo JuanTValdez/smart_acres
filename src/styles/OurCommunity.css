@@ -1,0 +1,19 @@
+.div-main {
+	margin: 0 0 0 8.5%;
+}
+.community-title {
+	min-width: 10%;
+	width: 100%;
+
+	font-family: 'Works Sans', sans-serif;
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 1.17;
+	letter-spacing: 3.06px;
+	color: var(--charcoal);
+
+	& span {
+		text-decoration: underline;
+		text-underline-offset: 1.125em;
+	}
+}
