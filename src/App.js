@@ -19,7 +19,7 @@ function App() {
 			{/* <MeetGreen /> */}
 
 			{/* <OurGreens /> */}
-			{<OurCommunity />}
+			<OurCommunity />
 			{/* <Footer /> */}
 		</div>
 	);

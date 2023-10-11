@@ -1,10 +1,10 @@
 .div-main {
 	margin: 0 0 0 8.5%;
 }
-.community-title {
+.community-headline {
 	min-width: 10%;
 	width: 100%;
-
+	margin-bottom: 7%;
 	font-family: 'Works Sans', sans-serif;
 	font-size: 1.125rem;
 	font-weight: 600;
@@ -16,4 +16,14 @@
 		text-decoration: underline;
 		text-underline-offset: 1.125em;
 	}
+}
+
+.smart-life {
+	max-width: 38%;
+
+	font-family: 'ClarendonURW-Lig', sans-serif;
+	font-size: 6.25rem;
+	line-height: 1.08;
+	letter-spacing: -0.88px;
+	color: var(--dark-pastel-green);
 }
