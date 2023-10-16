@@ -37,6 +37,15 @@
 	rotate: 180deg;
 	line-height: 1.29;
 	letter-spacing: -4.35px;
-	text-align: center;
 	color: var(--blue-green);
+}
+
+.endorsement-txt {
+	width: 792px;
+	margin: 0 auto;
+	font-family: 'Work-sans', sans-serif;
+	font-size: 2rem;
+	line-height: 1.38;
+	letter-spacing: -0.96px;
+	color: var(--gunmetal);
 }

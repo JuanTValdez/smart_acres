@@ -10,7 +10,7 @@ export default function OurCommunity() {
 			<p className='smart-life'>Living the Smart life</p>
 			<div className='quote-container'>
 				<div className='quote'>,,</div>
-				<p>
+				<p className="endorsement-txt">
 					Incredible product! It's something exceptional. I have to say, that
 					shelf-life of these greens is extraoradinary!"
 				</p>
