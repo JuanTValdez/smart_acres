@@ -27,3 +27,18 @@
 	letter-spacing: -0.88px;
 	color: var(--dark-pastel-green);
 }
+
+.quote {
+	width: 79px;
+	height: 93px;
+	margin: 0 356px 49px 357px;
+	font-family: 'ClarendonURW-Lig', sans-serif;
+	font-size: 174px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.29;
+	letter-spacing: -4.35px;
+	text-align: center;
+	color: var(--bluegreen);
+}
