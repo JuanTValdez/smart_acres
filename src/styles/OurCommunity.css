@@ -30,10 +30,10 @@
 
 .quote {
 	width: 79px;
-	height: 93px;
-	margin: 0 356px 49px 357px;
+
+	margin: 0 auto;
 	font-family: 'ClarendonURW-Lig';
-	font-size: 174px;
+	font-size: 10.875rem;
 	rotate: 180deg;
 	line-height: 1.29;
 	letter-spacing: -4.35px;
