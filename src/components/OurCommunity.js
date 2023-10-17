@@ -13,7 +13,7 @@ export default function OurCommunity() {
 
 				<p className='endorsement-txt'>
 					Incredible product! It's something exceptional. I have to say, the
-					shelf-life of these greens is extraordinary!"
+					shelf-life of these greens is extraordinary!
 				</p>
 
 				<div className='initials'>-J.W.</div>
