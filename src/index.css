@@ -2,18 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-/* @font-face {
-	font-family: 'ClarendonURW-Lig';
-	src: url('https://db.onlinewebfonts.com/t/b854c8c264f7f5e480ad8d983c3759d1.woff2')
-			format('woff2'),
-		url('https://db.onlinewebfonts.com/t/b854c8c264f7f5e480ad8d983c3759d1.woff')
-			format('woff'),
-		url('https://db.onlinewebfonts.com/t/b854c8c264f7f5e480ad8d983c3759d1.ttf')
-			format('truetype'),
-		url('https://db.onlinewebfonts.com/t/b854c8c264f7f5e480ad8d983c3759d1.svg#Clarendon-Light')
-			format('svg');
-} */
-
 @font-face {
 	font-family: 'ClarendonURW-Lig';
 	src: url('./fonts/ClarendonURW.woff');

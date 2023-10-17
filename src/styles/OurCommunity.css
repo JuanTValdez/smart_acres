@@ -29,13 +29,13 @@
 }
 
 .endorsement-txt {
-	max-width: 45dvw;
+	max-width: 47dvw;
 	margin: 0 auto;
-	font-family: 'Work-sans', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-size: 2rem;
 	line-height: 1.38;
 	text-align: center;
-	letter-spacing: 1px;
+	letter-spacing: -0.98px;
 	color: var(--gunmetal);
 	&::before {
 		content: '“';
@@ -53,4 +53,15 @@
 		font-size: 2rem;
 		color: var(--gunmetal);
 	}
+}
+
+.initials {
+	max-width: 10%;
+	margin: 0 auto;
+	font-family: 'ClarendonURW-Lig', sans-serif;
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 4.38;
+	text-align: center;
+	color: var(--blue-green);
 }
