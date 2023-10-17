@@ -16,7 +16,7 @@
 
 @font-face {
 	font-family: 'ClarendonURW-Lig';
-	src: url('./fonts/ClarendonURW.ttf');
+	src: url('./fonts/ClarendonURW.woff');
 }
 body {
 	margin: 0;

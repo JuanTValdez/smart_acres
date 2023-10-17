@@ -9,11 +9,13 @@ export default function OurCommunity() {
 			</div>
 			<p className='smart-life'>Living the Smart life</p>
 			<div className='quote-container'>
-				<div className='quote'>,,</div>
-				<p className="endorsement-txt">
-					Incredible product! It's something exceptional. I have to say, that
-					shelf-life of these greens is extraoradinary!"
+				
+
+				<p className='endorsement-txt'>
+					Incredible product! It's something exceptional. I have to say, the
+					shelf-life of these greens is extraordinary!"
 				</p>
+
 				<div className='initials'>-J.W.</div>
 			</div>
 		</div>
