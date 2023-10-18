@@ -21,7 +21,7 @@ export default function IntroSection() {
 					</p>
 
 					<div className='intro-btn'>
-						<p>Tell me more!</p>
+						<p>Tell Me More!</p>
 					</div>
 				</div>
 			</div>

@@ -4,7 +4,11 @@
 
 @font-face {
 	font-family: 'ClarendonURW-Lig';
-	src: url('./fonts/Clarendon-Light.ttf');
+	src: url('./fonts/Clarendon-Light.ttf'), sans-serif;
+}
+@font-face {
+	font-family: 'ClarendonURW-Reg';
+	src: url('./fonts/ClarendonURW.ttf'), sans-serif;
 }
 body {
 	margin: 0;

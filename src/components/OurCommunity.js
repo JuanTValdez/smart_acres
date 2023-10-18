@@ -9,14 +9,12 @@ export default function OurCommunity() {
 			</div>
 			<p className='smart-life'>Living the Smart life</p>
 			<div className='quote-container'>
-				
-
 				<p className='endorsement-txt'>
 					Incredible product! It's something exceptional. I have to say, the
 					shelf-life of these greens is extraordinary!
 				</p>
 
-				<div className='initials'>-J.W.</div>
+				<div className='initials'>- J.W.</div>
 			</div>
 		</div>
 	);

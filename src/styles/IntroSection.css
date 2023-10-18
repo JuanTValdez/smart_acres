@@ -50,15 +50,23 @@
 .intro-btn {
 	min-width: 160px;
 	max-width: 13vw;
+
 	border: solid 3px var(--coral);
 	background-color: var(--coral);
 	color: var(--off-white);
 	margin: 2em 0 0 0;
 
 	& p {
+		font-family: 'Clarendon-Reg';
+
 		font-size: 1.5rem;
 		line-height: 2.79;
 		letter-spacing: -0.48px;
 		text-align: center;
+	}
+
+	& p:hover {
+		color: var(--charcoal);
+		background-color: var(--off-white);
 	}
 }
