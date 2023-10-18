@@ -1,6 +1,6 @@
 import './App.css';
-// import NavBar from './components/Navbar.js';
-import Intro from './components/IntroSection.js';
+import NavBar from './components/Navbar.js';
+// import Intro from './components/IntroSection.js';
 // import ThinkOutside from './components/ThinkOutside.js';
 // import MeetGreen from './components/MeetGreen.js';
 // import OurGreens from './components/OurGreens.js';
@@ -13,8 +13,8 @@ function App() {
 			{/* // TODO - Add Smart Acres Logo */}
 
 			{/* // ? Nav needs logo */}
-			{/* <NavBar /> */}
-			<Intro />
+			<NavBar />
+			{/* <Intro /> */}
 			{/* <ThinkOutside /> */}
 			{/* <MeetGreen /> */}
 

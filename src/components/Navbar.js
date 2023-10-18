@@ -6,10 +6,10 @@ export default function NavBar() {
 			<div className='logo'></div>
 
 			<div className='links'>
-				<p>Green Team</p>
-				<p>Start Smart</p>
-				<p>Community</p>
-				<p>Contact Us</p>
+				<p className='nav-item'>Green Team</p>
+				<p className='nav-item'>Start Smart</p>
+				<p className='nav-item'>Community</p>
+				<p className='nav-item'>Contact Us</p>
 			</div>
 		</nav>
 	);
