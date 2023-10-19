@@ -40,10 +40,10 @@
 }
 
 .footer-txt-2 {
-	width: 496px;
+	max-width: 78%;
 	height: 113px;
-	margin: 6px 149px 45px 0;
-	font-family: 'Work-Sans', sans-serif;
+
+	font-family: 'Work Sans', sans-serif;
 	font-size: 1.5rem;
 	line-height: 1.58;
 	letter-spacing: -0.72px;
