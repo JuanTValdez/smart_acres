@@ -2,10 +2,10 @@ import './App.css';
 // import NavBar from './components/Navbar.js';
 // import Intro from './components/IntroSection.js';
 // import ThinkOutside from './components/ThinkOutside.js';
-import MeetGreen from './components/MeetGreen.js';
+// import MeetGreen from './components/MeetGreen.js';
 // import OurGreens from './components/OurGreens.js';
 // import OurCommunity from './components/OurCommunity.js';
-// import Footer from './components/Footer.js';
+import Footer from './components/Footer.js';
 
 function App() {
 	return (
@@ -13,14 +13,14 @@ function App() {
 			{/* // TODO - Add Smart Acres Logo */}
 
 			{/* // ? Nav needs logo */}
-			{/* <NavBar /> */}
-			{/* <Intro /> */}
-			{/* <ThinkOutside /> */}
+			{/* <NavBar />
+			<Intro />
+			<ThinkOutside />
 			<MeetGreen />
 
-			{/* <OurGreens /> */}
-			{/* <OurCommunity /> */}
-			{/* <Footer /> */}
+			<OurGreens />
+			<OurCommunity /> */}
+			<Footer />
 		</div>
 	);
 }

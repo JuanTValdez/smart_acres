@@ -29,16 +29,17 @@
 	height: 50vh;
 }
 
-.txt-1 {
-	width: 645px;
-	height: 122px;
+.footer-txt-1 {
+	width: 30dvw;
+	/* height: 122px; */
 	margin: 0 0 6px;
-	font-family: 'ClarendonURW-Lig', sans-serif;
+	font-family: 'ClarendonURW-Reg', sans-serif;
 	font-size: 2.625rem;
 	line-height: 1.21;
+	color: var(--off-white);
 }
 
-.txt-2 {
+.footer-txt-2 {
 	width: 496px;
 	height: 113px;
 	margin: 6px 149px 45px 0;
@@ -66,9 +67,9 @@
 	background-color: var(--charcoal);
 }
 
-.txt-1,
-.txt-2,
-.txt-4,
+.footer-txt-1,
+.footer-txt-2,
+.footer-txt-4,
 .sign-up-btn,
 .copyright,
 .logo {
@@ -76,13 +77,13 @@
 }
 
 .email,
-.txt-4,
+.footer-txt-4,
 .copyright,
 .logo {
 	font-family: 'Work Sans', sans-serif;
 }
 
-.txt-3,
+.footer-txt-3,
 .subscribe-btn {
 	font-family: 'ClarendonURW-Lig', sans-serif;
 }
@@ -107,7 +108,7 @@
 	letter-spacing: -0.45px;
 }
 
-.txt-3 {
+.footer-txt-3 {
 	width: 566px;
 	height: 117px;
 	/* margin: 0 701px 21px 0; */
@@ -142,7 +143,7 @@
 	/* padding: 15px 68px 18px 69px; */
 }
 
-.txt-4 {
+.footer-txt-4 {
 	width: 510px;
 	height: 65px;
 	margin: 23px 0px 0px 0;

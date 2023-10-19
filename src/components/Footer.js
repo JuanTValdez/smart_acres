@@ -16,8 +16,10 @@ export default function Footer() {
 					</div>
 
 					<div className='sign-up'>
-						<p className='txt-1'>Ready To start your Smart Acres journey?</p>
-						<p className='txt-2'>
+						<p className='footer-txt-1'>
+							Ready To start your Smart Acres journey?
+						</p>
+						<p className='footer-txt-2'>
 							Keep in touch with our farm because there's a lot to be grown and
 							especially a lot more to be tasted!
 						</p>
@@ -28,14 +30,14 @@ export default function Footer() {
 
 				<div className='footer-bottom'>
 					<div className='subscribe'>
-						<p className='txt-3'>
+						<p className='footer-txt-3'>
 							Sign up for our newsletter to stay in touch.
 						</p>
 						<input className='email' type='text' placeholder='Email' />
 
 						<button className='subscribe-btn'>Subscribe</button>
 
-						<p className='txt-4'>
+						<p className='footer-txt-4'>
 							By clicking above you agree to our{' '}
 							<span className='terms-of-use'>Terms of Use</span> and consent to
 							receive email notifications about Smart Acres. You may unsubscribe
