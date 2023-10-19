@@ -39,7 +39,7 @@ export default function MeetGreen() {
 						</p>
 
 						<div className='free-lettuce-btn'>
-							<p className='free-btn'>Free Lettuce, Please!</p>
+							<p className='free-btn'>Free Lettuce Please!</p>
 						</div>
 					</div>
 				</div>

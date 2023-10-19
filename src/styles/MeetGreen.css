@@ -124,21 +124,28 @@
 }
 
 .free-lettuce-btn {
-	width: 369px;
-	height: 65px;
+	max-width: 19dvw;
+
+	margin: 30px 0 0 0;
 
 	background-color: var(--coral);
-
+	border: 0.2rem solid var(--coral);
 	& .free-btn {
-		width: 242px;
-		height: 33px;
-		margin: 30px auto 0 auto;
-
+		/* height: 2rem; */
+		/* margin: auto; */
 		font-family: 'ClarendonURW-Reg', sans-serif;
 		color: var(--off-white);
 		font-size: 1.5rem;
 		line-height: 2.79;
 		text-align: center;
+	}
+}
+
+.free-lettuce-btn:hover {
+	background-color: var(--off-white);
+
+	& .free-btn {
+		color: var(--charcoal);
 	}
 }
 
