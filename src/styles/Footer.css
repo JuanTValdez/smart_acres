@@ -19,7 +19,7 @@
 .sign-up {
 	grid-column: 2/3;
 
-	padding: 93px 165px 105px 150px;
+	padding: 8dvh 8dvw 8dvh 8dvw;
 	background-color: var(--coral);
 }
 
@@ -49,7 +49,9 @@
 }
 
 .sign-up-btn {
-	max-width: 356px;
+	min-width: 10rem;
+	width: 16rem;
+
 	margin-top: 1.5rem;
 
 	font-family: 'ClarendonURW-Lig', sans-serif;
