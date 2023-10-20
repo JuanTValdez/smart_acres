@@ -169,3 +169,11 @@
 	gap: 2rem;
 	/* margin-left: auto; */
 }
+
+.media-links {
+	& img:hover {
+		/* changes icon color to --coral */
+		filter: invert(45%) sepia(99%) saturate(3807%) hue-rotate(337deg)
+			brightness(112%) contrast(99%);
+	}
+}
