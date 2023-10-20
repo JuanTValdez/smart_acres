@@ -52,13 +52,17 @@
 .sign-up-btn {
 	width: 356px;
 	height: 65px;
-	/* padding: 0px 54px 10px 58px; */
 	font-family: 'ClarendonURW-Lig', sans-serif;
 	font-size: 1.5rem;
 	line-height: 2.54;
 	text-align: center;
 	color: var(--off-white);
 	border: solid 3px var(--off-white);
+}
+
+.sign-up-btn:hover {
+	color: var(--charcoal);
+	border-color: var(--charcoal);
 }
 /* Bottom Footer */
 
