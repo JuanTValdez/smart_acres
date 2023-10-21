@@ -2,6 +2,7 @@
 .footer-bottom {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 50%);
 	margin: 0 auto;
 	max-width: 100%;
 }
@@ -25,7 +26,7 @@
 
 .greenhouse-img,
 .sign-up {
-	grid-row: 1/1;
+	/* grid-row: 1/1; */
 	height: 50vh;
 }
 
@@ -69,7 +70,8 @@
 /* Bottom Footer */
 
 .footer-bottom {
-	padding: 145px 165px 135px 165px;
+	/* padding: 145px 165px 135px 165px; */
+	/* padding: 145px 10rem 0 10rem; */
 	background-color: var(--charcoal);
 }
 
@@ -96,8 +98,12 @@
 
 .subscribe,
 .media {
-	grid-row: 2/2;
-	/* height: 50vh; */
+	/* grid-row: 2/2; */
+	/* margin: 145px 0 0 165px; */
+
+	padding: 6.25rem;
+	align-content: center;
+	/* height: 100%; */
 }
 
 .terms-of-use {
@@ -167,12 +173,8 @@
 	min-height: 15vh;
 	align-content: space-evenly;
 	gap: 2rem;
-	/* margin-left: auto; */
-}
 
-.media-links {
 	& img:hover {
-		/* changes icon color to --coral */
 		filter: invert(45%) sepia(99%) saturate(3807%) hue-rotate(337deg)
 			brightness(112%) contrast(99%);
 	}
